@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{05BC58EE-E417-C9AD-83B8-C8ADAB4C0F97}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_4;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>E:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>E:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\EdgeDetectEffect.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\A Bunch of Objects\SkySphere_V1\Examples\Gui.cs" />
+     <Compile Include="Assets\BisectionTest.cs" />
+     <Compile Include="Assets\ChangeScene.cs" />
+     <Compile Include="Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\ChecKDisplayFloor.cs" />
+     <Compile Include="Assets\CheckDisplay.cs" />
+     <Compile Include="Assets\ConfigSetCameraPos.cs" />
+     <Compile Include="Assets\CopyPosition.cs" />
+     <Compile Include="Assets\CreateBodyLines.cs" />
+     <Compile Include="Assets\DisableCollision.cs" />
+     <Compile Include="Assets\DrawRay.cs" />
+     <Compile Include="Assets\FMAB.cs" />
+     <Compile Include="Assets\Floortrack.cs" />
+     <Compile Include="Assets\GUIGeneral.cs" />
+     <Compile Include="Assets\GesturalInput.cs" />
+     <Compile Include="Assets\GetAspectRatio.cs" />
+     <Compile Include="Assets\GetKinectPitch.cs" />
+     <Compile Include="Assets\GetSlope.cs" />
+     <Compile Include="Assets\Getvariedheights.cs" />
+     <Compile Include="Assets\GraphOn.cs" />
+     <Compile Include="Assets\Grapher1.cs" />
+     <Compile Include="Assets\GuiPower.cs" />
+     <Compile Include="Assets\HUDFPS.cs" />
+     <Compile Include="Assets\IniParser.cs" />
+     <Compile Include="Assets\IniParserTest.cs" />
+     <Compile Include="Assets\Kicktheball.cs" />
+     <Compile Include="Assets\Kinect\Scripts\BodySourceManager.cs" />
+     <Compile Include="Assets\Kinect\Scripts\BodySourceView.cs" />
+     <Compile Include="Assets\Kinect\Scripts\ColorSourceManager.cs" />
+     <Compile Include="Assets\Kinect\Scripts\ColorSourceView.cs" />
+     <Compile Include="Assets\Kinect\Scripts\DepthSourceManager.cs" />
+     <Compile Include="Assets\Kinect\Scripts\DepthSourceView.cs" />
+     <Compile Include="Assets\Kinect\Scripts\DisableOnStart.cs" />
+     <Compile Include="Assets\Kinect\Scripts\InfraredSourceManager.cs" />
+     <Compile Include="Assets\Kinect\Scripts\InfraredSourceView.cs" />
+     <Compile Include="Assets\Kinect\Scripts\MultiSourceManager.cs" />
+     <Compile Include="Assets\KinectPointManV2.cs" />
+     <Compile Include="Assets\KineticCollision.cs" />
+     <Compile Include="Assets\LocationSwitch.cs" />
+     <Compile Include="Assets\ModifyScreenCam.cs" />
+     <Compile Include="Assets\Move.cs" />
+     <Compile Include="Assets\MoveUpDown.cs" />
+     <Compile Include="Assets\MovewithMOVABLE.cs" />
+     <Compile Include="Assets\MovingConveryor.cs" />
+     <Compile Include="Assets\Nudge.cs" />
+     <Compile Include="Assets\Parser.cs" />
+     <Compile Include="Assets\PreviousPosition.cs" />
+     <Compile Include="Assets\ProceduralGround.cs" />
+     <Compile Include="Assets\RayDown.cs" />
+     <Compile Include="Assets\ReadConfig.cs" />
+     <Compile Include="Assets\ReadShoeConfig.cs" />
+     <Compile Include="Assets\ResetOnButtonPress.cs" />
+     <Compile Include="Assets\ResetTreadCube.cs" />
+     <Compile Include="Assets\Scripts\AssignSplatMap.cs" />
+     <Compile Include="Assets\ServerUDP.cs" />
+     <Compile Include="Assets\SetScreenCam.cs" />
+     <Compile Include="Assets\Set_SBS_Aspect_Ratio.cs" />
+     <Compile Include="Assets\SocketSend.cs" />
+     <Compile Include="Assets\SteppingStoneCreation.cs" />
+     <Compile Include="Assets\TestCollision.cs" />
+     <Compile Include="Assets\UDPSendPacket.cs" />
+     <Compile Include="Assets\VRPN.cs" />
+     <Compile Include="Assets\WebApp.cs" />
+     <Compile Include="Assets\collisiontest.cs" />
+     <Compile Include="Assets\quit.cs" />
+     <Compile Include="Assets\test.cs" />
+     <Compile Include="Assets\unity-vr\SDL2window\sdl2window.cs" />
+     <Compile Include="Assets\unity-vr\misc\ScreenCam.cs" />
+     <Compile Include="Assets\unity-vr\misc\TrackPosRot.cs" />
+     <Compile Include="Assets\unity-vr\virtualInput\Vi.cs" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\A Bunch of Objects\Dice Props Pack\Shaders\RampDiffGlowCutout.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\A Bunch of Objects\Dice Props Pack\Shaders\RampLit.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Destroyed_city_FREE\Destroyed_city_FREE_Info.txt" />
+     <None Include="Assets\A Bunch of Objects\pylon_kit\shader\Normal-BumpSpec.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\A Bunch of Objects\Nobiax Free Rocks\Nobiax Free Rocks.txt" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\A Bunch of Objects\Nobiax Free Textures 38\Nobiax Free Textures 38.txt" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\A Bunch of Objects\Dice Props Pack\Shaders\RampBasic.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\A Bunch of Objects\Nobiax Free Textures 04\readme.txt" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\A Bunch of Objects\Dice Props Pack\Shaders\RampDiffIllumDetail.shader" />
+     <None Include="Assets\unity-vr\virtualInput\unityVrpn\unityVrpn\ReadMe.txt" />
+     <None Include="Assets\A Bunch of Objects\TheLoom_Building_1_Free\Shaders\TheLoom_Normal.shader" />
+     <None Include="Assets\A Bunch of Objects\Dice Props Pack\Shaders\RampLitOutline.shader" />
+     <None Include="Assets\unity-vr\SDL2window\vs2010_project\sdl2window\ReadMe.txt" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\A Bunch of Objects\Dice Props Pack\Shaders\RampDiffIllumFres.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\A Bunch of Objects\SkySphere_V1\Documentation\How to use.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\A Bunch of Objects\Snack_machines\readme.txt" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\A Bunch of Objects\Dice Props Pack\DPP_README.txt" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Readme.txt.txt" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\A Bunch of Objects\Dice Props Pack\Shaders\RampDiffIllumDetailCutout.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\A Bunch of Objects\TheLoom_Building_1_Free\readme.txt" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\A Bunch of Objects\Nobiax Free Textures 36\Nobiax Free Textures 36.txt" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\Destroyed_city_FREE\Shaders\AlphaTest-DiffuseDoubleSide.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\A Bunch of Objects\Dice Props Pack\Shaders\RampDiffGlowOutline.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\A Bunch of Objects\Palace of Orinthalian\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>E:/Code/WalkInPlace/KinectV2/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{493099C1-CC02-2DE1-C7E1-8791B18E815A}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: benches_mat
+  m_Shader: {fileID: 4800000, guid: 95c184b54615eb24e9e61473520c0f4f, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: ff4431b3d655f5c4aa77e863779d6cdc, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Detail
+        second:
+          m_Texture: {fileID: 2800000, guid: e9260ff0a15265d4caf26770c046a9c8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Ramp
+        second:
+          m_Texture: {fileID: 8900000, guid: dc348d4267c4b874d809e1395b78272b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Illum
+        second:
+          m_Texture: {fileID: 2800000, guid: 2723328f7df24dc4c874b8272db37675, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: eb80743a05c9fe144a70d948f16721c2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Glow
+        second:
+          m_Texture: {fileID: 2800000, guid: eb80743a05c9fe144a70d948f16721c2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RampShade
+        second:
+          m_Texture: {fileID: 8900000, guid: dc348d4267c4b874d809e1395b78272b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Emission
+        second: 1
+      data:
+        first:
+          name: _Offset
+        second: .00499999989
+      data:
+        first:
+          name: _GlowIntensity
+        second: .5
+      data:
+        first:
+          name: _Outline
+        second: .522388041
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: .59349966}
+      data:
+        first:
+          name: _GlowColor
+        second: {r: .567164183, g: .567164183, b: .567164183, a: 1}
